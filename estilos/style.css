@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Cormorant+Upright:wght@300;400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --cor1: #011526;
+    --cor2: #324E59;
+    --cor3: #65818C;
+    --cor4: #95B3BF;
+    --cor5: #0D0D0D;
+
+    --fonte-padrao: ;
+    --fonte-subtitulo: "Cormorant Upright", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
