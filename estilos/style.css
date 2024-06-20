@@ -65,6 +65,14 @@ nav a:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
 }
 
+h1,h2 {
+    font-family: var(--fonte-titulo);
+}
+
+p,a {
+    font-family: var(--fonte-principal);
+}
+
 .sobre {
     padding-top: 300px;
     max-width: 700px;
@@ -72,7 +80,6 @@ nav a:hover {
 }
 
 .sobre h1 {
-    font-family: var(--fonte-titulo);
     text-align: center;
     font-size: 50px;
 }
@@ -83,7 +90,6 @@ nav a:hover {
 }
 
 .casas h2 {
-    font-family: var(--fonte-titulo);
     text-align: center;
     margin-bottom: 30px;
     font-size: 40px;
@@ -97,12 +103,31 @@ nav a:hover {
 .casas a {
     color: white;
     text-align: center;
-    font-family: var(--fonte-principal);
     text-decoration: none;
 }
 
 .casas a:hover {
     text-decoration: underline;
+}
+
+.hog {
+    background-image: url('../imagens/hogwarts2.jpeg');
+    width: 1310px;
+    height: 263px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.418);
+    border-radius: 10px ;
+}
+.teoria {
+    margin-top: -200px;
 }
 
 footer {
