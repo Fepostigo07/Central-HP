@@ -139,6 +139,39 @@ p,a {
     border-radius: 10px;
 }
 
+.teoria h1 {
+    text-align: center;
+}
+
+.teoria h2 {
+    font-family: var(--fonte-subtitulo);
+}
+
+.tneville {
+    display: flex;
+    align-items: center;
+}
+
+.tneville p {
+    max-width: 700px;
+    text-align: justify;
+    margin: 15px;
+}
+
+.imgtneville p {
+    margin: -5px -3px;
+}
+
+.tfg img {
+    display: inline-block;
+}
+
+.tfg p {
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+}
+
 footer {
     margin-top: 20px;
     background-color: black;
